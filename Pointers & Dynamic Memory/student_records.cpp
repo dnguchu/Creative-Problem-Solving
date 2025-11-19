@@ -3,8 +3,7 @@ using namespace std;
 
 struct listNode {
     int studentNum;
-    int grade;
-    char studentName;
+    char grade;
     listNode* next;
 };
 typedef listNode* studentCollection;
