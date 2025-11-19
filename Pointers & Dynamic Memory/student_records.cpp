@@ -4,6 +4,7 @@ using namespace std;
 struct listNode {
     int studentNum;
     int grade;
+    char studentName;
     listNode* next;
 };
 typedef listNode* studentCollection;
