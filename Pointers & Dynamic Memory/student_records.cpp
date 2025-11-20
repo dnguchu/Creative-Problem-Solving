@@ -3,11 +3,7 @@ using namespace std;
 
 struct listNode {
     int studentNum;
-<<<<<<< HEAD
     int grade;
-=======
-    char grade;
->>>>>>> feature1
     listNode* next;
 };
 typedef listNode* studentCollection;
